@@ -1,11 +1,13 @@
 {
   "compilerOptions": {
-    "module": "system",
+    "module": "ESNext",
+    "moduleResolution": "node",
     "noImplicitAny": true,
     "removeComments": true,
     "preserveConstEnums": true,
-    "outFile": "./build/main.js",
-    "sourceMap": true
+    "outDir": "./build/",
+    "sourceMap": true,
+    "allowSyntheticDefaultImports": true
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "**/*.spec.ts"]

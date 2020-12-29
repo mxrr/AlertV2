@@ -1,2 +1,6 @@
+import dotenv from 'dotenv';
+dotenv.config();
 
-console.log('asd');
+const GAPI = process.env.GAPI;
+
+console.log(GAPI);
